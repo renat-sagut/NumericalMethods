@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\numerical">
+      <UniqueIdentifier>{db47e31d-4659-43f7-b908-68e4edca7352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\numerical\optimization">
+      <UniqueIdentifier>{1a6e3a58-8caf-414e-835b-97204114c10d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\numerical\basic">
+      <UniqueIdentifier>{1105a733-8279-4691-86c1-65bd17c04b34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\numerical">
+      <UniqueIdentifier>{9b0b9035-363b-4635-889d-4c093b756bfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\numerical\basic">
+      <UniqueIdentifier>{38959557-70ba-4fe0-b73e-adb19a78b8fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\numerical\optimization">
+      <UniqueIdentifier>{c1ebf842-fda9-4b37-9ad8-e7e84b3b3df1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\numerical\utils">
+      <UniqueIdentifier>{4f1b2a60-a5e9-4018-ac86-fecf5f596452}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Source Files\numerical\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="NelderMead.cpp">
+      <Filter>Source Files\numerical\optimization</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vector.h">
+      <Filter>Header Files\numerical\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Warnings.h">
+      <Filter>Header Files\numerical\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="NelderMead.h">
+      <Filter>Header Files\numerical\optimization</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
